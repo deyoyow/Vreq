@@ -21,7 +21,7 @@ It provides a simple, non-contact alternative to conventional sensor-based vibro
 - [Troubleshooting](#troubleshooting)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
-- [Citation (optional)](#citation)
+- [Citation](#citation)
 
 ---
 
@@ -174,6 +174,7 @@ Joao Bastos, Elsbeth van Dam, Coert van Gemeren, Jan van Gemert, Amogh Gudi, Jul
 ## License
 ---
 ## Citation
+
 
 
 
