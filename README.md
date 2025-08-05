@@ -90,24 +90,24 @@ pip install perceptual
 
 Common flags (exact set may vary by your script version):
 
-```lua
+```bash
 
-`--video <path> Path to the PBMM video to analyze (required)
+ --video <path> Path to the PBMM video to analyze (required)
  --roi <x,y,w,h> ROI in pixels; defaults to heuristics or full frame  
  --method <fft|welch>  Spectrum method (default: welch)  
  --fs <fps>  Override frame rate if metadata is missing/wrong 
  --plot Show spectrum figure  
  --save-fig <path> Save spectrum figure (PNG/PDF)  
- --out <path> Save text/JSON summary with dominant frequency` 
+ --out <path> Save text/JSON summary with dominant frequency 
 ```
 Examples:
 
 ```bash
 
-`# Welch PSD, automatic ROI, show plot 
+# Welch PSD, automatic ROI, show plot 
 python vreq.py --video media/Sample/1.mp4-Mag20Ideal-lo5-hi25.avi --plot 
 # Specify ROI and save a figure 
-python vreq.py --video media/Sample/1.mp4-Mag20Ideal-lo5-hi25.avi \ --roi 320,180,640,360 --plot --save-fig result.png` 
+python vreq.py --video media/Sample/1.mp4-Mag20Ideal-lo5-hi25.avi \ --roi 320,180,640,360 --plot --save-fig result.png 
 ```
 ----------
 
@@ -174,4 +174,5 @@ Joao Bastos, Elsbeth van Dam, Coert van Gemeren, Jan van Gemert, Amogh Gudi, Jul
 ## License
 ---
 ## Citation
+
 
