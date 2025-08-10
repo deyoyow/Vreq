@@ -165,15 +165,13 @@ python vreq.py --video media/Sample/1.mp4-Mag20Ideal-lo5-hi25.avi \ --roi 320,18
 
 ## Acknowledgements
 
-The PBMM reference code in this repository was implemented from the literature and developed independently of any original author code.  
-Some design choices may differ (e.g., sliding window, ideal temporal filter only, grayscale, no sub-octave pyramid), which can lead to output differences.  
-Historical development credit (Lorentz Center – _ICT with Industry: motion microscope_ workshop):  
-Joao Bastos, Elsbeth van Dam, Coert van Gemeren, Jan van Gemert, Amogh Gudi, Julian Kooij, Malte Lorbach, Claudio Martella, Ronald Poppe.
+The PBMM reference code in this repository was implemented from jvgemert/pbMoMa while the Fast Fourier Transform is an independent work, the code for PBMM may contain modification/changes that makes it differ from the original repository.
 
 ---
 ## License
 ---
 ## Citation
+
 
 
 
