@@ -165,12 +165,13 @@ python vreq.py --video media/Sample/1.mp4-Mag20Ideal-lo5-hi25.avi \ --roi 320,18
 
 ## Acknowledgements
 
-The PBMM reference code in this repository was implemented from jvgemert/pbMoMa while the Fast Fourier Transform is an independent work, the code for PBMM may contain modification/changes that makes it differ from the original repository.
+The PBMM reference code in this repository was implemented from [jvgemert/pbMoMa](https://github.com/jvgemert/pbMoMa) while the Fast Fourier Transform is an independent work, the code for PBMM may contain modification/changes that makes it differ from the original repository.
 
 ---
 ## License
 ---
 ## Citation
+
 
 
 
